@@ -1,4 +1,4 @@
-# Solution of "Kenobi" challenge. [Easy]
+# Solution of "Kenobi" challenge. [EASY]
 
 
-![Kenobi](https://github.com/root-ji218at/tryhackme.com/blob/master/Kenobi/pictures/profile_pic.png)
+![Kenobi](pictures/profile_pic.png)
