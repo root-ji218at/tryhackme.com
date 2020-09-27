@@ -1,4 +1,4 @@
-# Solution of "GamingServer" challenge. [Easy]
+# Solution of "GamingServer" challenge. [EASY]
 
 
 ![GamingServer](pictures/cover_pic.jpeg)
